@@ -10,17 +10,18 @@ This study applies a Regression Discontinuity Design (RDD) to estimate the causa
 
 ---
 
+## Tools
+- **Language**: `R`
+- **Statistical Method**: Regression Discontinuity Design (RDD)
+
+---
+
 ## Required libraries
 
 - **`rddtools`**: Provides a complete workflow for RDD analysis, including data preparation, visualisation, estimation of treatment effects, sensitivity analysis and placebo testing. It supports both sharp and fuzzy designs.
 
 - **`rdd`**: Offers core estimation tools for RDD using local linear regression. It includes functions for estimating treatment effects, selecting optimal bandwidths and testing for sorting violations near the cutoff (McCrary test).
 
----
-
-## Tools
-- **Language**: `R`
-- **Statistical Method**: Regression Discontinuity Design (RDD)
 ---
 
 ## Data
